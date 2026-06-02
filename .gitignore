@@ -1,0 +1,62 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+.cursor/
+.history/
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*.orig
+*.rej
+
+# Environment / secrets
+.env
+.env.*
+*.pem
+*.key
+credentials
+credentials.json
+*.tfvars
+.aws/
+
+# Minecraft server artifacts (in case anyone test-runs scripts locally)
+server.jar
+*.jar
+world/
+world_nether/
+world_the_end/
+logs/
+crash-reports/
+banned-ips.json
+banned-players.json
+ops.json
+whitelist.json
+usercache.json
+eula.txt
+server.properties
